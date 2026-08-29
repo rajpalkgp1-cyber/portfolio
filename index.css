@@ -1257,3 +1257,13 @@ img{
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
 }
+
+@media (max-width: 768px) {
+    .home-img img {
+        width: 300px;
+        height: 450px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+    }
+}
